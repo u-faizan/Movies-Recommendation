@@ -1,0 +1,15 @@
+[project]
+name = "tfidf-knn"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "ipykernel>=6.30.1",
+    "joblib>=1.5.2",
+    "notebook>=7.4.5",
+    "numpy>=2.2.6",
+    "pandas>=2.3.2",
+    "scikit-learn>=1.7.2",
+    "streamlit>=1.49.1",
+]
