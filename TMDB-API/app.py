@@ -15,7 +15,7 @@ IMAGE_URL = "https://image.tmdb.org/t/p/w500"
 
 HEADERS = {
     "accept": "application/json",
-    "Authorization": "Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiIwZWEyMTcyNTUzYWFkM2EwYTA3NjVmNGQ3NDYxYjE2MSIsIm5iZiI6MTc1Nzc1NjkxMS40MDIsInN1YiI6IjY4YzUzZGVmNzAyMWE5YjdiMGE4NjA1MSIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.PuB2tOFuSgHF1oab9Ac7sE1FnVxsTsWMslIOw8zZum0"
+    "Authorization": ""  # replace with your key
 }
 
 def search_movie_tmdb(query):
