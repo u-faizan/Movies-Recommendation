@@ -1,0 +1,14 @@
+# Requirements for the TFIDF-KNN project
+# for Jupyter notebook support
+notebook
+ipykernel
+# Core
+numpy
+pandas
+scikit-learn
+
+# For app
+streamlit
+
+# For saving/loading models
+joblib
