@@ -15,11 +15,8 @@ IMAGE_URL = "https://image.tmdb.org/t/p/w500"
 
 HEADERS = {
     "accept": "application/json",
-<<<<<<< HEAD
+
     "Authorization": ""  # replace with your key
-=======
-    "Authorization": "Enter Your TMDB API Key"
->>>>>>> 149522a5e8810afeba18033e7b6861d66e23d066
 }
 
 def search_movie_tmdb(query):
