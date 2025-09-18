@@ -1,0 +1,17 @@
+# Core
+pandas
+numpy
+scikit-learn
+
+# Sentence Transformers
+sentence-transformers
+
+# For notebooks
+notebook
+ipykernel
+
+# For deployment
+streamlit
+
+# For saving/loading models
+joblib
