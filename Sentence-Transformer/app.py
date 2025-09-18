@@ -12,11 +12,11 @@ import requests
 # -----------------------------
 @st.cache_resource
 def load_model():
-    return SentenceTransformer("saved_model")
+    return SentenceTransformer("Sentence-Transformer/saved_model")
 
 @st.cache_data
 def load_data():
-    with open("movies_data.pkl", "rb") as f:
+    with open("Sentence-Transformer/movies_data.pkl", "rb") as f:
         data = pickle.load(f)
     return data["movies"], data["embeddings"]
 
