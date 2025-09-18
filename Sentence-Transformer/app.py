@@ -26,10 +26,10 @@ movies, embeddings = load_data()
 # --- TMDB API Setup ---
 BASE_URL = "https://api.themoviedb.org/3"
 IMAGE_URL = "https://image.tmdb.org/t/p/w500"
-
+API_KEY = st.secrets["API_KEY"]
 HEADERS = {
     "accept": "application/json",
-    "Authorization": "Bearer YOUR_TMDB_API_KEY"  # replace with your key
+    "Authorization": API_KEY
 }
 
 def search_movie_tmdb(query):
